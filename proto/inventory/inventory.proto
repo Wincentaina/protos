@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package inventory;
+
+option go_package = "microservices_basics/proto/inventorypb";
+
+service Inventory {
+    rpc CheckStock(CheckStockRequest) returns (CheckStockResponse);
+}
+
+message CheckStockRequest {
+  string product_id = 1;
+}
+
+message CheckStockResponse {
+  bool available = 1;
+}
