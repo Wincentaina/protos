@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package inventory;
 
-option go_package = "microservices_basics/proto/inventorypb";
+option go_package = "wincentaina.inventory.v1;inventoryv1";
 
 service Inventory {
     rpc CheckStock(CheckStockRequest) returns (CheckStockResponse);

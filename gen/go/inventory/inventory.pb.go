@@ -4,7 +4,7 @@
 // 	protoc        v5.28.3
 // source: inventory/inventory.proto
 
-package inventorypb
+package inventoryv1
 
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
@@ -121,7 +121,7 @@ const file_inventory_inventory_proto_rawDesc = "" +
 	"\tavailable\x18\x01 \x01(\bR\tavailable2V\n" +
 	"\tInventory\x12I\n" +
 	"\n" +
-	"CheckStock\x12\x1c.inventory.CheckStockRequest\x1a\x1d.inventory.CheckStockResponseB(Z&microservices_basics/proto/inventorypbb\x06proto3"
+	"CheckStock\x12\x1c.inventory.CheckStockRequest\x1a\x1d.inventory.CheckStockResponseB&Z$wincentaina.inventory.v1;inventoryv1b\x06proto3"
 
 var (
 	file_inventory_inventory_proto_rawDescOnce sync.Once
